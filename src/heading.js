@@ -20,8 +20,9 @@ const Header = () => {
             
            
             <NavLink className='links' style={navlinkstyle} to={'/about'}>about</NavLink>
-            <NavLink className='links' style={navlinkstyle} to={'signup'}>signUp</NavLink>
+            <NavLink className='links' style={navlinkstyle} to={'register'}>signUp</NavLink>
             <NavLink className='links' style={navlinkstyle} to={'/loginpage'}>login</NavLink>
+              
             
             <select name="" id=""><option value="">for you</option>
             
